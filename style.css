@@ -6,8 +6,15 @@
 h1 {
     background-color: rgb(255, 136, 0);
     color: rgb(77, 40, 5);
+    margin: auto;
     margin-bottom: 40px;
-    text-align: center
+    margin-top: 40px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(32, 31, 31);
+    border-radius: 8px;
+    box-shadow: -2px 2px rgb(29, 28, 28);
 }
 
 h3 {
@@ -15,21 +22,19 @@ h3 {
     color: red;
 }
 
-h4 {
+h4 {S
     font-style: italic;
 }
 
 div{
     text-align: center;
     font-size: 25px;
-    display: block;
 }
 
 a{
-    padding-left: 2%;
-    padding-right: 2%;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
 }
-
 ul,
 ol {
     text-align: left;
